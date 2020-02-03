@@ -8,4 +8,5 @@
     <string name="f">F</string>
     <string name="check">Check</string>
     <string name="result">The correct number of answers is: %d</string>
+    <string name="t_f">T/F</string>
 </resources>
