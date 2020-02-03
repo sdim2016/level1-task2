@@ -10,8 +10,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnCheck.setOnClickListener { onButtonClick() }
+        btnCheck.setOnClickListener { onButtonClick() } //onClickListener for our button
     }
+
+    /**
+     * This function is responsible for finding and displaying the amount of correct answers
+     */
 
     private fun onButtonClick() {
         var correctCount: Int = 0
